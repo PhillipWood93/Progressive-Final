@@ -10,26 +10,46 @@
     <body>
         <!--displaying website icon and a greeting.-->
         <header>
-            <!--I created this icon using inkscape. I'm not much of an artist, but it will do. -->
+            <!--I created this icon using Inkscape. I'm not much of an artist, but it will do. -->
             <img id="icon" src="images/Icon.png" alt="Awesome Game Reviews">
             <h1 id="greeting">Welcome to The Number One Game Review Website.</h1>
         </header>
 
-        <!--The navigation area. This are is so the user can traverse your website.-->
+        <!--The navigation area. This area is so the user can traverse your website.-->
         <nav>
             <!--Using different block drawings as a throw back to Tetris-->
-            <p><a href="index.html">Home</a> &nbsp; &#9627; &nbsp; <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp; <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp; <a href="AdvancedSearch.html">Advanced Search</a></p>
+            <p class="links"><a href="index.html">Home</a> &nbsp; &#9627; &nbsp; <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp; <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp; <a href="AdvancedSearch.html">Advanced Search</a></p>
+
         </nav>
 
         <!--TODO: Add meaningful contextual content for the page...-->
         <main>
+            <!--TODO: Get the search box operational.-->
+            <div id="sb">
+                <form>
+                    <input type="text" placeholder="game search">
+                    <input type="submit" value="search">
+                </form>
+            </div>
+            
+            <aside id="myfavs">
+                
+                <h3>My Personal Picks</h3>
+                <a href="https://wowclassic.blizzard.com/en-us/" target="_blank"><img class="fav" src="images/World_of_Warcraft_Wrath_of_the_Lich_King.png" alt="The box art for wrath of the lich king."></a>
+
+                <a href="https://www.thewitcher.com/en/witcher3" target="_blank"><img class="fav" src="images/305108-the-witcher-3-wild-hunt-playstation-4-front-cover.jpg" alt="The box art for The Witcher 3: Wild Hunt"></a>
+
+                <a href="https://us.diablo3.blizzard.com/en-us/" target="_blank"><img class="fav" src="images/zubzZ7MULOqF7sIY7N8znMxWW8k0xxp9.jpg" alt="Diablo 3 Eternal Collection box art."></a>
+            </aside>
+
+            <!--TODO: Add some placeholder games to the list until i can create a database...-->
         </main>
+        
 
         <!--The footer section, used primarily for the copyright notice and contact information. However, it can contain hyperlinks to other parts of the website as well.-->
         <footer>
             
-            <!--TODO: Hook up the hyperlinks to meaningful pages.-->
-            <section id="links"> 
+            <div class="links"> 
                 
                 <a href="ContactMe.html">Contact Me</a>
                 
@@ -37,11 +57,11 @@
                 <br>
 
                 <a href="AboutMe.html">About Me</a>
-            </section>
+            </div>
 
-            <section id="td">
+            <div id="td">
                 <P>&copy; 2023 All Rights Reserved. Awesome Game Reviews is a Registered Trademark of Rage Game Studios.&reg;</P>
-            </section>
+            </div>
 
         </footer>
     </body>
