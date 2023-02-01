@@ -1,0 +1,43 @@
+header{
+    padding: 10px 0px 0px 15px;
+    background-color: gray;
+    
+}
+header #greeting{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size:xx-large;
+}
+
+main{
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+}
+
+#td{
+    font-weight: 700;
+}
+
+nav{
+    text-align: center;
+    background-color: gray;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:ghostwhite
+}
+
+a:hover{
+    color:yellow;
+}
