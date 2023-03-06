@@ -1,22 +1,64 @@
 
+/*CSS Reset*/
+body, header, nav, main, footer, img, h1, h3{
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+
+
+/*Body Styling*/
 body{
     background-color: #ffd42a;
 }
 
+/*Header Styling*/
 header{
-    padding: 10px 0px 0px 15px;
     background-color: gray;
-    
+    width: 98%;
+    margin: 0 auto;
 }
+
+#icon{
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 25px;
+}
+
+/**/
 header #greeting{
     display: inline;
     position: relative;
     bottom: 50px;
-    padding-left: 15px;
+    margin-left: 30%;
     font-weight: 600;
     font-size:xx-large;
 }
 
+
+/* STYLE FOR NAV AREA */
+nav{
+    text-align: center;
+    background-color: gray;
+    width: 98%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.50em;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+/* STYLE FOR MAIN AREA */
 p{
     padding: 20px;
     font-size: medium;
@@ -25,22 +67,21 @@ p{
 
 main{
     background-color: gray;
+    width: 98%;
+    margin: 0 auto;
 }
 
 footer{
     background-color: gray;
     text-align: center;
+    width: 98%;
+    margin: 0 auto;
 }
 
 #td{
     font-weight: 700;
 }
-
-nav{
-    text-align: center;
-    background-color: gray;
-}
-
+/*Styling for favorite games side bar*/
 #myfavs{   
     background-color: #ffd42a;
     text-align: center;
@@ -52,8 +93,8 @@ nav{
 #myfavs .fav{
     margin: 0 auto;
     margin-bottom: 10px;
-    width: 130px;
-    height: 150px;
+    /* width: 130px;
+    height: 150px; */
     display: block;
     border-radius: 25px;
     border-color: black;
@@ -61,6 +102,7 @@ nav{
     border-width: 3px;
 }
 
+/*Styling for Search box's*/
 #sb{
     text-align: center;
     padding-top: 10px;
@@ -79,9 +121,16 @@ a:hover{
     color:#ffd42a;
 }
 
+
 h3{
     text-align: center;
 }
+
+/*Styling for Images*/
+img {
+    max-width: 100%;
+    display: block;
+ }
 
 .aimg{
     display: block;
@@ -104,6 +153,7 @@ h3{
     width: 20px;
 }
 
+/*Form Styling*/
 #searchform{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -123,4 +173,11 @@ select{
 
 #MP{
     display:inline;
+}
+
+/*Map Styling*/
+#map{
+    border-radius: 25px;
+    border-color: black;
+    border-width: 5px;
 }

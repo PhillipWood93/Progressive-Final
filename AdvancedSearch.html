@@ -18,7 +18,20 @@
         <!--The navigation area. This are is so the user can traverse your website.-->
         <nav>
             <!--Using different block drawings as a throw back to Tetris-->
-            <p><a href="index.html">Home</a> &nbsp; &#9627; &nbsp; <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp; <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp; <a href="AdvancedSearch.html">Advanced Search</a></p>
+            <ul id="navlinks">
+                <li>
+                    <a href="index.html">Home</a> &nbsp; &#9627; &nbsp;
+                </li>
+                <li>
+                    <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp;
+                </li>
+                <li>
+                    <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp;
+                </li>
+                <li>
+                    <a href="AdvancedSearch.html">Advanced Search</a>
+                </li>
+            </ul>
         </nav>
 
         <!--TODO: Add meaningful contextual content for the page...-->
@@ -28,8 +41,10 @@
                 <form>
                     <input type="text" placeholder="Keyword">                 
                     <input type="text" placeholder="year released">
-                    <label for="MP">Multiplayer: </label>
-                    <input type="checkbox" name="MP" id="MP">
+                    <div id="MPOption">
+                        <label for="MP">Multiplayer: </label>
+                        <input type="checkbox" name="MP" id="MP">
+                    </div>
                     <select name="Genre" id="Genre">
                         <option>FPS</option>
                         <option>RPG</option>
@@ -39,6 +54,16 @@
                     <input type="submit" value="submit">
                 </form>
             </div>
+
+            <aside id="myfavs">
+                
+                <h3>My Favorite Games</h3>
+                <a href="https://wowclassic.blizzard.com/en-us/" target="_blank"><img class="fav" src="images/Wrath.png" alt="The box art for wrath of the lich king."></a>
+
+                <a href="https://www.thewitcher.com/en/witcher3" target="_blank"><img class="fav" src="images/TheWitcher.jpg" alt="The box art for The Witcher 3: Wild Hunt"></a>
+
+                <a href="https://us.diablo3.blizzard.com/en-us/" target="_blank"><img class="fav" src="images/Diablo3.jpg" alt="Diablo 3 Eternal Collection box art."></a>
+            </aside>
 
         </main>
 

@@ -5,6 +5,18 @@
         <title>Awesome Game Reviews &#9475; Home</title>
         <meta charset="utf-8">
         <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            #submitb
+            {
+                height: 40px; 
+                width: 100px; 
+                border-radius: 25px; 
+                margin-top: 15px; 
+                background-color:#ffd42a;
+            }
+        </style>
+
     </head>
     
     <body>
@@ -18,7 +30,20 @@
         <!--The navigation area. This area is so the user can traverse your website.-->
         <nav>
             <!--Using different block drawings as a throw back to Tetris-->
-            <p class="links"><a href="index.html">Home</a> &nbsp; &#9627; &nbsp; <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp; <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp; <a href="AdvancedSearch.html">Advanced Search</a></p>
+            <ul id="navlinks">
+                <li>
+                    <a href="index.html">Home</a> &nbsp; &#9627; &nbsp;
+                </li>
+                <li>
+                    <a href="AboutMe.html">About Me</a> &nbsp; &#9631; &nbsp;
+                </li>
+                <li>
+                    <a href="ContactMe.html">Contact Me</a> &nbsp; &#9629; &nbsp;
+                </li>
+                <li>
+                    <a href="AdvancedSearch.html">Advanced Search</a>
+                </li>
+            </ul>
 
         </nav>
 
@@ -27,8 +52,8 @@
             <!--TODO: Get the search box operational.-->
             <div id="sb">
                 <form>
-                    <input type="text" placeholder="game search">
-                    <input type="submit" value="search">
+                    <input style="height: 30px; width: 300px; border-radius: 25px; background-color: whitesmoke; text-align: left; padding-left: 11px;" type="text" placeholder="Game Search">
+                    <input style="height: 40px; width: 100px; border-radius: 25px; margin-top: 15px; background-color:#ffd42a;" id="submitb" type="submit" value="search">
                 </form>
             </div>
             
