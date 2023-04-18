@@ -76,6 +76,7 @@ nav li a{
 .frame{
     position: relative;
     max-width: 450px;
+    max-height: 500px;
     margin: 2% auto;
     opacity: 0.9;
 }
