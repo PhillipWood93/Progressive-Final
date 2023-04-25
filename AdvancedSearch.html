@@ -42,20 +42,22 @@
         <main>
 
             <div id="searchform">
-                <form>
-                    <input type="text" placeholder="Keyword">                 
-                    <input type="text" placeholder="year released">
-                    <div id="MPOption">
-                        <label for="MP">Multiplayer: </label>
-                        <input type="checkbox" name="MP" id="MP">
-                    </div>
-                    <select name="Genre" id="Genre">
-                        <option>FPS</option>
-                        <option>RPG</option>
-                        <option>MMO</option>
-                        <option>RTS</option>
-                    </select>
-                    <input type="submit" value="submit">
+                <form id="as-form">
+                    <fieldset>
+                        <legend>Advanced Search</legend>
+                        <input type="text" placeholder="Keyword">                 
+                        <input type="text" placeholder="year released">
+                        <div id="MPOption">
+                            <label for="MP">Multiplayer: <input type="checkbox" name="MP" id="MP"></label>  
+                        </div>
+                        <select name="Genre" id="Genre">
+                            <option>FPS</option>
+                            <option>RPG</option>
+                            <option>MMO</option>
+                            <option>RTS</option>
+                        </select>
+                        <input type="submit" value="submit">
+                    </fieldset>
                 </form>
             </div>
             <div class="grid">

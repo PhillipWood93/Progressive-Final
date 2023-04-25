@@ -48,20 +48,51 @@
                 <a href="https://worldofwarcraft.blizzard.com/en-us/character/us/fizzcrank/yogiberra" target="_blank"><img class="cimg" src="images/wowToons.jpg" alt="A image of my wow characters names on the fizzcrank server."></a>
                 
             </div>
-            
-            <div id="socialmedia">
-                <p>If you would like to contact me on social media I will provide the links. However, I mainly only use facebook, but you just might catch me trolling on twitter.</p>
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100078303082804" target="_blank"><img class="smIcon" src="images/fb-icon.png" alt="facebook icon">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/philtherage/" target="_blank"><img class="smIcon" src="images/InstaIcon.jpg" alt="Instagram Icon">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/phillipwood61" target="_blank"><img class="smIcon" src="images/TwitterIcon.jpg" alt="Twitter Icon">Twitter</a>
-                    </li>
-                </ul>
+
+            <div id="contactform">
+                <form class="form-grid" action="mailto:phillipwood61@gmail.com" method="post">
+                    <fieldset>
+                        <legend>Email Me</legend>
+                        <label for="name">Your Name:</label>
+                        <input id="name" name="name" type="text">
+                        <label for="email">Your Email:</label> 
+                        <input name="email" id="email" type="email">
+
+                        <label for="Genre">What is your favorite game genre?</label>
+                        <select name="Genre" id="Genre">
+                            <option>FPS</option>
+                            <option>RPG</option>
+                            <option>MMO</option>
+                            <option>RTS</option>
+                        </select>
+
+                        <label><input type="radio" name="mode" id="mp" value="Multiplayer">Multiplayer</label>
+                        <label><input type="radio" name="mode" id="sp" value="Single Player">Single player</label>
+
+                        <label><input type="checkbox">Does the game have a campaign?</label>
+                        
+                        <label for="subject">Subject:</label>
+                        <input name="subject" id="subject" type="text">
+
+                        <label for="message">What's on your mind?</label>
+                        <textarea id="message" name="message" rows="5" cols="35">
+                        </textarea>
+
+                        <input type="submit" id="contact-button" value="Submit">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Social Media</legend>
+
+                        <div class="social-media-grid">
+                            <a href="https://www.facebook.com/profile.php?id=100078303082804" target="_blank"><img class="smIcon" src="images/fb-icon.png" alt="facebook icon"></a>
+
+                            <a href="https://www.instagram.com/philtherage/" target="_blank"><img class="smIcon" src="images/InstaIcon.jpg" alt="Instagram Icon"></a>
+
+                            <a href="https://twitter.com/phillipwood61" target="_blank"><img class="smIcon" src="images/TwitterIcon.jpg" alt="Twitter Icon"></a>
+                        </div>
+
+                    </fieldset>
+                </form>
             </div>
             
         </main>
